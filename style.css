@@ -7,6 +7,7 @@
 }
 body{
     background-color: rgb(152, 185, 206);
+    background: url(https://cdn4.vectorstock.com/i/1000x1000/48/18/question-marks-signs-seamless-pattern-background-vector-22444818.jpg);
 }
 #container{
     display: flex;
@@ -22,11 +23,20 @@ body{
 
 header{
     align-items: center;
-    color:#450364;
+    color:#f6f5f7;
     font-weight: 600;
-    border-bottom: 1px solid #333;
+    border-bottom: 2px solid #0f0e0e;
     padding-bottom: 30px;
+
 }
+img{
+    display: flex;
+    justify-content: center ;
+    width: 100px;
+    height: 80px;
+    
+}
+
 #quiz{
     padding: 20px 0;
 }
@@ -34,6 +44,13 @@ header{
     font: size 18px; ;
     color:#333 ;
     font-weight:600 ;
+}
+
+
+#optionBtn.optionBtn{
+    display: flex;
+    flex-direction: column;
+justify-content: space-between;
 }
 .button{
     display: flex;
@@ -59,7 +76,7 @@ header{
 
 
 }
-.btn-container{
+.btnContainer{
     display: flex;
     justify-content: center;
 }
@@ -74,7 +91,11 @@ header{
     padding: 10px;
     margin: 20px auto 0;
     cursor: pointer;
-    display: none;
+    display: block;
 
     
 }
+
+    
+    
+    
