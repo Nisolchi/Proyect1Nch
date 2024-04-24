@@ -1,0 +1,83 @@
+* {
+    margin: 0;
+    padding: 0;
+    font-family: "Sofia", sans-serif;
+    font-size: 30px;
+    text-shadow: 3px 3px 3px #ababab;
+    box-sizing: border-box;
+
+}
+body{
+    background-color: rgb(152, 185, 206);
+    background: url(https://cdn4.vectorstock.com/i/1000x1000/48/18/question-marks-signs-seamless-pattern-background-vector-22444818.jpg);
+}
+
+.btn{
+    background-color: #5e0436e4;
+    color: #e6d8d8;
+    border-radius: 4px;
+    font-weight: 500;
+    width: 150px;
+    border: 0;
+    padding: 10px;
+    margin: 20px auto 0;
+    cursor: pointer;
+    display: block;
+
+  
+}
+#button.button{ 
+    
+    background-color: #f39ecde4;
+    color: #e1d9d9;
+    border-radius: 10px;
+    font-weight: 1000;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    width: 150px;
+    border: 0;
+    padding: 10px;
+    margin: 20px auto 0;
+    cursor: pointer;
+    display: block;
+
+}
+
+.animacion {
+    width: 100px;
+    height: 100px;
+    position: relative;
+    animation: mover 10s infinite;
+    border-radius: 30px;
+    align-content: center;
+    background-image: url("./imagen/barretina.png");
+    background-size: cover;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    color: #e1d9d9fc;
+    font-size:xx-large ;
+  }
+
+  footer{
+
+    position:relative;
+        bottom: 0;
+        left: 0;
+        width: 100%;
+        background-color: #000;
+        color: #000;
+        font-size: 12px;
+        color: #fff;
+        padding: 6px;
+        margin-top: 120px;
+    }
+
+
+  
+  @keyframes mover {
+    from {
+      left: 0;
+    }
+    to {
+      left: 100%;
+    }
+  }
+  
