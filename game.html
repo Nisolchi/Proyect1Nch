@@ -9,10 +9,11 @@
 </head>
 
 <body>
+
     <header class="header">
        
-        <h1>catalanize!! </h1>
-        <p>learning Game</p>
+        <h1>Catalanize!! </h1>
+        <p>Learning Game</p>
 
     </header>
     <div class="container" id="container">
@@ -27,6 +28,12 @@
                 <div class="btnContainer">
                     <button class="next">Next</button>
                 </div>
+                <div id="scoreBoard" class="score-board"> 
+                    Score: <span id="score">0</span>
+                </div>
+                
+                <button class="restart" style="display:none;">Restart</button>  <!---ending-->
+                
 
             </div>
 
@@ -46,9 +53,10 @@
         <source src="./sounds/133284__leszek_szary__level-completed.wav" type="audio/wav">
     </audio>
 
-
+    <div class="finalScreen"></div>
+    <script src="https://cdn.jsdelivr.net/npm/js-confetti@latest/dist/js-confetti.browser.js"></script>
     <script src="./game.js"></script>
-    
+
 
     <section>
     <footer>©2024NisolchiDev</footer>
